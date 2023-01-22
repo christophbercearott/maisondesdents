@@ -89,6 +89,15 @@ h6 {
   background: rgba(103, 176, 209, 0.8);
 }
 
+#header-title {
+  padding: 12px;
+  text-align: center;
+  position: relative;
+  margin-bottom: -2px;
+  background: linear-gradient(to right, #D5AE48, #F0CC67, #F6F08A, #D5AE48);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
 #header.header-transparent {
   background: transparent;
 }
@@ -143,6 +152,8 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+  
+  
 }
 
 .navbar li {
@@ -162,6 +173,9 @@ h6 {
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
+  background: linear-gradient(to right, #D5AE48, #F0CC67, #F6F08A, #D5AE48);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .navbar a i,
